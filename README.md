@@ -11,10 +11,10 @@
 ### Installation :
 
 ```bash
-pkg update && pkg upgrade -y
-pkg install git -y
-https://github.com/OXiZ3N/RZCA-DDoS-V3
-cd RZCA-DDoS-V3
+
+git clone https://github.com/OXiZ3N/RZCA-DDoS-V1.git
+cd RZCA-DDoS-V1
+python rz.py
 
 ```
 ### Run Tools
